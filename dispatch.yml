@@ -1,0 +1,6 @@
+dispatch:
+  - url: "shubhamtiwary.xyz/*"
+    service: default
+
+  - url: "www.shubhamtiwary.xyz/*"
+    service: default

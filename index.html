@@ -1,9 +1,205 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Shubham Tiwary</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Shubham Tiwary</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
 </head>
 <body>
-Hello World!
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero"><h1>SHUBHAM <span>TIWARY</span></h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#skills" data-after="Skills">Skills</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>नमस्ते 🙏, <span></span></h1>
+        <h1>I'm <span></span></h1>
+        <h1><b>Shubham </b><span></span></h1>
+        <a href="#projects" type="button" class="cta">PORTFOLIO</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="skills container">
+      <div class="skills-top">
+        <h1 class="section-title">MAJOR <span>skills</span></h1>
+      </div>
+      <div class="skill-bottom">
+        <div class="skill-item">
+          <div class="icon"><img src="https://img.icons8.com/color/144/000000/python.png"/></div>
+          <h2>Python3</h2>
+          <p>Object Oriented Programming, Algorithms, Data Structures</p>
+        </div>
+        <div class="skill-item">
+          <div class="icon"><img src="https://img.icons8.com/color/96/000000/web.png"/></div>
+          <h2>Web Development</h2>
+          <p>JS, Node, React, Django, AWS, Nginx, Gunicorn</p>
+        </div>
+        <div class="skill-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/man-laptop-pencil.png"/></div>
+          <h2>Graphic Design</h2>
+          <p>Vector Graphics, CorelDRAW, Photoshop, Lightroom</p>
+        </div>
+        <div class="skill-item">
+          <div class="icon"><img src="https://img.icons8.com/plasticine/100/000000/gears.png"/></div>
+          <h2>Machine Learning</h2>
+          <p>Linear and Logistic Regression, Decision Tree, CV, KNN</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Skills Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Major <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Self-Driving Car Controller</h1>
+            <h2>Python</h2>
+            <p>Implemented a Pythonic Code and developed a working simulation with a python-based vehicle autonomy agent (CARLA). Both the lateral and longitudinal control was achieved with reasonable accuracy using classic control techniques.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/Screenshot (689).png" alt="img">
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Cancer Prediction</h1>
+            <h2>Python/ML</h2>
+            <p>Implemented various Machine Learning Models (KNN, Decision Tree, RandomForest, VotingClassifier, Bagging, Boosting, Logistic Regression) to predict and differentiate between malignant and benign cancer cells.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/Screenshot (1659).png" alt="img">
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Alumni Connect</h1>
+            <h2>Under Development</h2>
+            <p>Working on a College Social Media Web App to connect Students, Professors and Alumni members under the guidance of my Professor, College Alumni and Seniors.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/Screenshot (1660).png" alt="img">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/img-2.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>CSE Undergrad / Software Developer</h2>
+        <p>I am a passionate Student Developer and have a very sharp interest towards Data Science and Full Stack Development. Also, I am a Graphic Designer, Illustrator and a writer who loves to tangle with literary tropes. Apart from these, I work hard to augment my area of expertise by learning new skills and getting better at my existing ones. I strongly believe that what challenges us are the ones that changes us.</p>
+        <a href="#" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div><h1 class="section-title">Get in <span>touch</span></h1></div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/clouds/100/000000/linkedin.png"/></div>
+          <div class="contact-info">
+            <h1>LinkedIn</h1>
+            <h2>/in/tiwaryshubham/</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/clouds/100/000000/email.png"/></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>isthisshubham@gmail.com</h2>
+            <h2>shubham.tiwary@gcettb.ac.in</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/clouds/100/000000/address.png"/></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>West Bengal, India</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand"><h1>shubham <span>tiwary</span></h1></div>
+      <h2>Thanks for stopping by!</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://github.com/shubham-tiwary" target="_blank"><img src="https://img.icons8.com/clouds/100/000000/github.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/justlikeyou23/" target="_blank"><img src="https://img.icons8.com/clouds/100/000000/instagram-new--v2.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/tiwaryshubham/" target="_blank"><img src="https://img.icons8.com/clouds/100/000000/linkedin.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.youtube.com/channel/UC2x3PEetw8HaOWt1XlWom9A" target="_blank"><img src="https://img.icons8.com/clouds/100/000000/youtube.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="mailto:shubham.tiwary@gcettb.ac.in"><img src="https://img.icons8.com/clouds/100/000000/email.png"/></a>
+        </div>
+      </div>
+      <p>© Shubham Tiwary, 2020</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
 </body>
 </html>
